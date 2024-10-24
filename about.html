@@ -44,7 +44,7 @@
             <ul>
               <li><a href="index.html">Home</a></li>
               <li><a href="about.html" class="active">About</a></li>
-              <li><a href="registration.html">Become a Member</a></li>
+              <li><a data-bs-toggle="modal" data-bs-target="#ModalForm">Become a Member</a></li>
               <li class="dropdown"><a href="#"><span>Projects</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
                     <li><a href="ongoingprojects.html"">Ongoing Projects</a></li>
@@ -61,7 +61,29 @@
     
         </div>
       </header>
-
+      <div class="modal fade" id="ModalForm" tabindex="-1" aria-labelledby="ModalFormLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="myform bg-dark">
+                    <h1 class="text-center">Contact Form</h1>
+                    <form>
+                        <div class="mb-3 mt-4">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="John Doe" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-light mt-3">Submit</button>
+                    </form>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
   <main class="main">
 
     <!-- Page Title -->
