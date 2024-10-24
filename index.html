@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>FriendsForMatibi</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt=""> 
+        <h1 class="sitename">FriendsForMatibi</h1> <span>.</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a data-bs-toggle="modal" data-bs-target="#ModalForm">Become a Member</a></li>
+          <li class="dropdown"><a href="#"><span>Projects</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="ongoingprojects.html">Ongoing Projects</a></li>
+              <li><a href="projectstofund.html">Projects To Fund</a></li>
+              <li><a href="completedprojects.html">Completed Projects</a></li>
+            </ul>
+          </li>
+          <li><a href="news.html">News</a></li>
+          <a href = "#" class = "login-button">Donate</a>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+  
+<div class="modal fade" id="ModalForm" tabindex="-1" aria-labelledby="ModalFormLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="myform bg-dark">
+                <h1 class="text-center">Contact Form</h1>
+                <form>
+                    <div class="mb-3 mt-4">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="John Doe" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-light mt-3">Submit</button>
+                </form>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="info d-flex align-items-center">
+        <div class="container">
+          <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-6 text-center">
+              <h3>Become A Friend For Matibi</h3>
+              <p>YOU CAN BECOME A MEMBER OF THE FRIENDS OF MATIBI FOR 50CHF PER YEAR</p>
+              <a href="#get-started" class="btn-get-started">DONATE NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <div class="carousel-item">
+          <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
+        </div>
+
+        <div class="carousel-item active">
+          <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="">
+        </div>
+
+        <div class="carousel-item">
+          <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
+        </div>
+
+        <div class="carousel-item">
+          <img src="assets/img/hero-carousel/hero-carousel-4.jpg" alt="">
+        </div>
+
+        <div class="carousel-item">
+          <img src="assets/img/hero-carousel/hero-carousel-5.jpg" alt="">
+        </div>
+
+        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    
+    <!-- Projects Section -->
+    <section id="constructions" class="constructions section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+        <p>These projects are funded and are already running</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg"><img src="assets/img/projects/Kufunda-Classroom-Roof.jpeg" alt=""></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Project Nook Hostel.</h4>
+                    <p>Project Overview thanks to the longstanding support of the Leopold Bachmann Foundation, we have successfully established a functional self learning center called "NOOK" in Ward 3 Mwenezi. A ward is a political ........</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg"><img src="assets/img/projects/HappyPigs.jpeg" alt=""></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Matibi Nook Hub Permaculture Project</h4>
+                    <p>Welcome to the transformative Matibi Nook Hub Permaculture initiative, a pioneering project spearheaded by FFM (Friends For Matibi). This comprehensive undertaking is rooted in our commitment to holistic community development, seeking...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg"><img src="assets/img/projects/nook.png" alt=""></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Nook – Center for Vocational Training</h4>
+                    <p>Update March 11, 2024 Costs for the Nook in 2024: 276,428 USD - including Nook Hostel construction, permaculture project, solar butchery project, new climate-friendly roof on the Nook, second vehicle - here is the...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg"><img src="assets/img/projects/Organic-Gardening.jpeg" alt=""></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Organic Gardening – two new gardens per year</h4>
+                    <p>Update 11 March 2024 Matibi Hospital Staff Garden is ready. Update 12 May 2023 New water tanks are on the way Update, 2 September 2022 Four new boreholes for two existing gardens...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Alt Services Section -->
+    <section id="alt-services" class="alt-services section">
+
+      <div class="container">
+
+        <div class="row justify-content-around gy-4">
+          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/about.jpg" alt=""></div>
+
+          <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <h3>Our Vision</h3>
+            <p>Friends for Matibi envisions a thriving, inclusive, and sustainable community in Matibi where all individuals have access to essential resources, opportunities, and a supportive network. We are dedicated to fostering unity, empowerment, and holistic development, creating a brighter future for Matibi and its people.</p>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-easel flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Our Holistic Support for Sustainable Progress in Matibi's Community</a></h4>
+                <p>We believe that sustainable progress is dependent on multiple factors like education, water, regeneration, nature, health. The complexity of community development needs a multidisciplinary approach. Therefore, we are trying to balance several pillars.
+
+                  Education: We are operating a self-learning center called Nook. It is a school without teachers, where the passion of imagination of the learners is at the very heart of learning. We provide scholarships, school supplies, and educational resources to empower children in Matibi to reach their full potential. Alternative education is the foundation for a brighter future.
+                  Health: Our healthcare initiatives include supporting the Matibi Mission hospital, revival of surgery at Matibi, health awareness campaigns, and support for local clinics. We believe that good health is essential for individuals and the community to thrive.
+                  Food: We work towards ensuring food security through sustainable agriculture practices, community gardens, and nutrition programs. Nourishing the community ensures their well-being and vitality.
+                  Income: We empower the community by supporting income-generating activities, vocational training, and entrepreneurship. Economic stability enables families to break the cycle of poverty.
+                  Environment: The permaculture activities are meant to regenerate the soil and introduce new ways of water management. This is necessary because due to climate change the rainy season is much shorter than before. We also invest in green power by putting solar power installation on the community's roof in exchange on cattle which is better fed through the permaculture activities and then are sold in the locally-led butchery we will open to circle the money back to the community. Humans are nature, if nature is ill, we are ill too.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Alt Services Section -->
+
+    </section><!-- /Features Section -->
+
+    <!-- News Posts Section -->
+    <section id="recent-blog-posts" class="recent-blog-posts section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>News</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-xl-4 col-md-6">
+            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="">
+                <span class="post-date">December 12</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
+                  </div>
+                </div>
+
+                <hr>
+
+                <a href="#" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </div>
+          </div><!-- End post item -->
+
+          <div class="col-xl-4 col-md-6">
+            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt="">
+                <span class="post-date">July 17</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
+                  </div>
+                </div>
+
+                <hr>
+
+                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </div>
+          </div><!-- End post item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="post-item position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt="">
+                <span class="post-date">September 05</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Quia assumenda est et veritati tirana ploder</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
+                  </div>
+                </div>
+
+                <hr>
+
+                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </div>
+          </div><!-- End post item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Recent Blog Posts Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">FriendsForMatibi</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Adresse: Freunde für Matibi, 6000 Luzern</p>
+            <p><strong>Email:</strong> <span>vorstand@matibi.ch</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="registration.html">Become A Member</a></li>
+            <li><a href="ongoingprojects.html">Projects</a></li>
+            <li><a href="news.html">News</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12 footer-newsletter">
+          <h4>Our Newsletter</h4>
+          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+          <form action="forms/newsletter.php" method="post" class="php-email-form">
+            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">FriendsForMatibi</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href=#">Virtue Creatives</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
